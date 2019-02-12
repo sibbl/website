@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:foaf="http://xmlns.com/foaf/0.1/"
+		xmlns:cert="http://www.w3.org/ns/auth/cert#"
+		xmlns:owl="http://www.w3.org/2002/07/owl#">
+	<foaf:PersonalProfileDocument rdf:about="http://www.sibbl.net/me#sebastian">
+		<foaf:maker rdf:resource="#sebastian"/>
+		<foaf:primaryTopic rdf:resource="#sebastian"/>
+	</foaf:PersonalProfileDocument>
+	<foaf:Person rdf:ID="sebastian">
+		<owl:sameAs rdf:resource="https://my-profile.eu/people/sibbl/card#me" />
+		<foaf:name>Sebastian Müller</foaf:name>
+		<foaf:givenName>Sebastian</foaf:givenName>
+		<foaf:firstName>Sebastian</foaf:firstName>
+		<foaf:familyName>Müller</foaf:familyName>
+		<foaf:surname>Müller</foaf:surname>
+		<foaf:nick>sibbl</foaf:nick>
+		<foaf:phone rdf:resource="tel:+491725314159" />
+		<foaf:mbox rdf:resource="mailto:hello@sibbl.net"/>
+		<foaf:homepage rdf:resource="http://www.sibbl.net/" />
+		<foaf:img rdf:resource="http://www.sibbl.net/Sibbl-Sebastian-Mueller.jpg" />
+		<foaf:gender>male</foaf:gender>
+		<foaf:age>26</foaf:age>
+		<foaf:birthday>05-25</foaf:birthday>
+		<foaf:weblog rdf:resource="http://blog.sibb.net" />
+		<foaf:weblog rdf:resource="http://www.twitter.com/sibbl" />
+		<foaf:title>Mr</foaf:title>
+		<foaf:skypeID>sibbl255</foaf:skypeID>
+		<foaf:msnChatID>sebastian@outlook.de</foaf:msnChatID>
+		<foaf:icqChatID>41135245</foaf:icqChatID>
+		<cert:key>
+			<cert:RSAPublicKey>
+				<cert:modulus rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">D9F8C33F98CC36AA5F2C1E45F7DFC001CCC1F084A4561343BF7B21EC24A216F8CA0A65C3C2E148DFE28BCDBCD7635DDEA16165C77311C58188A7667ED21392747951CE87D6793F62042BE8ACFA3F217A1F8341460C45F9F7C856AC667FE539B2CE0F9E1588861917920390BA8357B4139FE44967CD3B1391610DB85DE5272B00344DFC06309793C3DDB69B1C791D3FA31CA460B68CC5139BD48E52AE11043C64002902502AAD80796A52C3B7B1F818A6DE3EE4BF4487AF682DEE5F750BBCF0A9A47663FA280ABFA486D72F145DEEF9482357CAC59359D4776462C85F0C75537EDA2A83913F9E5B6A98802317DCAE62985A36AD0CC361D2F626F60A9F9A3093ED</cert:modulus>
+				<cert:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65537</cert:exponent>
+			</cert:RSAPublicKey>
+		</cert:key>
+	</foaf:Person>
+</rdf:RDF>
