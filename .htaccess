@@ -11,6 +11,8 @@ RewriteRule ^(p|pp|pay|paypal)(/.*)?$ https://paypal.me/sibbl$2 [R=302,L]
 RewriteRule ^(i|ig|instagram)$ https://instagram.com/sibbl/ [R=302,L]
 RewriteRule ^sebastian$ sebastian.rdf [L]
 
+RewriteRule ^Sibbl-Sebastian-Mueller.jpg$ Sibbl-Sebastian-Schubotz.jpg [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
